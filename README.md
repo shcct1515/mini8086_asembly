@@ -13,7 +13,7 @@
 * Có 4 thanh ghi: `AX`, `BX`, `CX`, `DX`, cùng với `IP` (Instruction Pointer) và cờ `Z` (Zero flag).
 * **Không phải** CPU 8086 thật, chỉ mô phỏng ý tưởng ASM.
 
-> ⚠️ Nếu bạn cần môi trường sát thực tế hơn, hãy dùng [emu8086](http://www.emu8086.com/) hoặc `NASM + DOSBox`.
+> ⚠️ Nếu bạn cần môi trường sát thực tế hơn, hãy dùng `emu8086` hoặc `NASM + DOSBox`.
 
 ---
 
