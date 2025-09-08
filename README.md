@@ -160,6 +160,7 @@ INT 20h
 * Tập lệnh chỉ là **một tập con nhỏ** của 8086, chưa có:
 
   * RAM, Stack thật sự, Segment, Interrupt vector, I/O.
+  
   ~~* Các lệnh phức tạp như `MUL`, `DIV`, `CALL`, `INT`.~~
 
 **Update mới nhất**: Bổ sung lệnh **MUL, DIV, CALL, RET, INT** và thêm nhiều ví dụ minh họa để mở rộng khả năng giả lập.
