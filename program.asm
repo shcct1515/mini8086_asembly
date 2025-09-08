@@ -1,12 +1,26 @@
+; Code demo chương trình
 
-MOV AX, 5
+MOV AX, 6
 MOV BX, 3
-ADD AX, BX
-CMP AX, 8
-JZ done
-MOV CX, 1
+
+MUL BX        ; AX = 6 * 3 = 18
+DIV BX        ; AX = 18 / 3 = 6, DX = 0
+
+CALL subr     ; gọi thủ tục, tăng AX lên 1
+
+CMP AX, 7
+JZ equal
+MOV CX, 0
 JMP end
-done:
-MOV CX, 2
+
+equal:
+MOV CX, 99
+
 end:
-HLT
+INT 20h       ; kết thúc bằng ngắt
+
+;-------------------------
+subr:
+INC AX        ; AX = AX + 1
+RET
+
