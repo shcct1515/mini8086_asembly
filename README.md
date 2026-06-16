@@ -39,7 +39,7 @@
 1. Clone repo:
 
    ```bash
-   git clone https://github.com/<username>/<repo-name>.git
+   git clone https://github.com/shcct1515/mini8086_asembly.git
    ```
 2. Build project bằng g++ hoặc bất kì compiler cpp nào
 3. Run:
